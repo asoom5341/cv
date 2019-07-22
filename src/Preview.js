@@ -18,7 +18,7 @@ function App() {
       <header className="App-header">
 
         <p>
-			Upload Your CV with Us!
+			Your Uploaded CV
 
         </p>
         <a
@@ -28,19 +28,44 @@ function App() {
           rel="noopener noreferrer"
         > 
 		
-		<form className="App-form">
-		  First name:
-		  <input type="text" name="firstname"/><br/><br/>
-		  Last name:
-		  <input type="text" name="lastname"/><br/><br/>
-		  University:
-		  <input type="text" name="university"/><br/><br/>
-		  Major:
-		  <input type="text" name="major"/><br/>
-		  
-		</form>
+		<table className="App-table">
+		  <tr>
+			<td>Firstname</td>
+			<th>Lastname</th> 
+			<th>University</th>
+			<th>Major</th>
+			<th>CV</th>
 
-		<button type="button">Upload Your CV</button>
+		  </tr>
+		  <tr>
+			<td>      </td>
+			<td>      </td> 
+			<td>      </td>
+			<td>      </td>
+			<td>Download</td>
+		  </tr>
+		  <tr>
+			<td>      </td>
+			<td>      </td> 
+			<td>      </td>
+			<td>      </td>
+			<td>Download</td>
+		  </tr>
+		  <tr>
+			<td>      </td>
+			<td>      </td> 
+			<td>      </td>
+			<td>      </td>
+			<td>Download</td>
+		  </tr>
+		  <tr>
+			<td>      </td>
+			<td>      </td> 
+			<td>      </td>
+			<td>      </td>
+			<td>Download</td>
+		  </tr>
+		</table>
 
         </a>
       </header>
